@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  box-sizing: border-box;
+
+}
+
+.App {
+  padding: 50px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h4{
+  margin-bottom: 15px;
+}
+/* table  */
+.table_container {
+  height: 500px;
+  overflow: auto;
+
+}
+
+tr {
+  word-wrap: none;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 25px;
+
+}
+
+td {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 5px;
+  height: 25px;
+  text-align: left;
+  word-wrap: none;
+  overflow: hidden;
+  border-collapse: collapse;
+
+}
+
+table {
+  width: 100%;
+  position: relative;
+  top: 0;
+  word-wrap: none;
+  overflow: hidden;
+
+}
+
+thead {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgb(197, 197, 197);
+}
+
+tbody {
+  padding-top: 2px;
+}
+
+/* upload  */
+.upload_container {
+  margin-top: 30px;
+}
+
+.input_file {
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 5px;
+  background-color:rgba(128, 128, 128, 0.411);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 10px;
+
+}
+.input_file:hover{
+  background-color:rgba(128, 128, 128, 0.626);
+}
+
+.upload_button {}
+
+.upload_preview {
+margin-top: 20px;
+
+}
+.previewT_image{
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+.drag_upload{
+margin-top: 20px;
+border: 1px dashed gray;
+width: 300px;
+padding: 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: crosshair;
+}
+.drag_upload-image{
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-left: 5px;
+}
+.active{
+
+}
